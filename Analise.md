@@ -50,8 +50,16 @@ Pontos Fortes:
        5- Dependência de parcerias para fechar o sistema completo:a TIM monta seu sistema unindo vários parceiros, o que pode gerar mais camadas de negociação e suporte para o cliente final.
 
 
+Empresa analisada - Datatem
 
+Visão geral:
+        A Datatem é uma empresa brasileira especializada em conectividade M2M e IoT. A empresa fornece chips, conectividade e ferramentas de gestão para permitir que máquinas, sensores e dispositivos transmitam dados continuamente pela internet.
+        Seu público é principalmente empresarial (B2B), especialmente organizações que possuem muitos equipamentos conectados ou operações que dependem de comunicação constante. Entre os setores atendidos se destacam os de: energia, rastreamento, indústria, segurança eletrônica e agricultura.
 
+Produtos analisados:
+        1-Chip/SIM card M2M e IoT: utilizado para conectar máquinas, sensores, veículos e equipamentos às redes móveis.
+        2-Conectividade multioperadora: permite utilizar diferentes redes de operadoras e gerenciar as conexões em uma única plataforma.
+        3-APN privada, VPN e IP fixo: recursos voltados à comunicação mais controlada e segura entre os dispositivos e os sistemas da empresa.
 
 
 
