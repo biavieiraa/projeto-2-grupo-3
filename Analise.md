@@ -189,7 +189,52 @@ Pontos Fracos:
         2- Customização de hardware e prototipagem do dispositivo de borda ficam a encargo do cliente final.
 
         3- A solução depende da cobertura e do tempo de resposta das operadoras parceiras em falhas físicas de rede.
-
+        
         4- Modelo comercial B2B focado em escala, gerando custos de entrada pouco atraentes para pequenos protótipos ou startups em estágio inicial.
 
-        
+
+Empresa analisada: ARQIA
+
+Visão geral:
+
+       A Arqia é a unidade de negócios da Datora Telecom voltada exclusivamente para soluções de IoT e M2M. Atua no modelo MVNO (Operadora Virtual de Rede Móvel), utilizando a infraestrutura física de grandes operadoras de telecomunicações combinada a uma plataforma proprietária de gestão de conectividade. Seu público-alvo principal são integradores, empresas de rastreamento veicular, fintechs (máquinas de cartão/POS), utilities e indústrias que necessitam de conectividade gerenciada e suporte técnico especializado.
+
+Produtos analisados: 
+
+       Arqia Core / Plataforma M2M: plataforma proprietária de gestão do ciclo de vida dos SIM Cards em tempo real (ativação, bloqueio, consumo e diagnósticos).
+       
+       Chips M2M Multi-operadora / Roaming Nacional: SIM Cards (físicos e eSIM) com redundância automática de sinal entre as principais operadoras de telecom do país.
+       
+       Conectividade para Meios de Pagamento (POS/POS IP): pacotes e chips otimizados especificamente para maquininhas de cartão com baixa latência e alta disponibilidade.
+       
+       APIs de Integração M2M: conjunto de conectores para que o cliente integre a gestão dos SIM Cards diretamente ao seu próprio sistema ou ERP.
+
+Funcionamento: 
+
+       Conectividade multi-rede: o dispositivo do cliente (rastreador, POS, medidor ou gateway) utiliza o SIM Card da Arqia para se conectar à antena com melhor sinal disponível no local (tecnologias 2G, 3G, 4G, NB-IoT ou LTE-M), operando em regime de roaming ou troca de perfil.
+       
+       Ingestão e roteamento: o tráfego de dados gerado pelo dispositivo passa pelos servidores da Arqia (Core de Rede próprio sobre a infraestrutura parceira), garantindo segurança, controle de dados e túneis VPN privados.
+
+       Gestão centralizada e integração via API: o cliente acessa a plataforma Arqia Core para monitorar em tempo real o consumo de megabytes, status de conexão, diagnóstico de falhas e automação de regras de faturamento, integrando esses controles ao seu ERP via APIs.
+
+       Aplicação focada em conectividade pura (diferencial de modelo): ao contrário de operadoras tradicionais que vendem a aplicação final pronta, a Arqia foca em entregar conectividade resiliente e ferramentas para que integradores construam suas próprias soluções.
+
+Pontos Fortes:
+
+       Redundância e multi-operadora: por ser uma MVNO, consegue entregar maior disponibilidade em campo ao chavear entre redes (Claro, Vivo, TIM), reduzindo pontos cegos geográficos.
+
+       Foco e especialização em B2B/M2M: diferente de grandes operadoras cujo foco principal ainda é o cliente final residencial/móvel, a estrutura da Arqia é totalmente dedicada a projetos M2M e IoT.
+
+       Plataforma de gestão flexível e intuitiva: interface voltada para o gestor técnico/operacional, permitindo diagnósticos avançados de conectividade e controle granular por chip.
+
+       Atendimento consultivo e próximo: suporte técnico mais ágil e especializado em demandas de engenharia de IoT do que os canais corporativos engessados das grandes operadoras.
+
+Pontos Fracos:
+
+       Sem infraestrutura de acesso própria: como depende das antenas e torres das operadoras tradicionais, fica vulnerável a instabilidades gerais na camada física de radiofrequência dessas parceiras.
+
+       Ausência de soluções de aplicação "end-to-end": não oferece aplicações prontas para o cliente final (como dashboards de telemetria de iluminação ou sensores específicos), exigindo que o cliente desenvolva o software ou contrate um integrador.
+
+       Escala de infraestrutura menor que operadoras Tier 1: embora robusta para o mercado B2B, não possui a mesma força de investimento em infraestrutura pura de rede que uma operadora de cobertura nacional direta.
+
+       Dependência de terceiros para expansão de tecnologias como NB-IoT: o cronograma de liberação e expansão de novas tecnologias de rede celular depende do ritmo de implantação das donas das redes físicas.
