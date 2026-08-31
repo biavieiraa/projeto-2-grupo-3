@@ -95,7 +95,31 @@ Pontos fracos:
         O valor depende da aplicação: apenas conectar dispositivos não garante benefícios para a empresa; é necessário definir como os dados serão coletados, armazenados, analisados e utilizados na tomada de decisões
 
 
+Empresa analisada: IoT Connect
+Visão geral: A IoT Connect atua como uma camada intermediária de conectividade e gestão de ativos. O foco central é simplificar a ponte entre o hardware do chão de fábrica (sensores, gateways e módulos M2M) e as aplicações em nuvem, resolvendo o gargalo de integrar múltiplos protocolos sem reinventar a roda.
 
+Produtos analisados: Plataforma de Gestão de Conectividade (gestão de chips M2M/eSIM), o Módulo de Gestão de Dispositivos (cadastro e status do hardware), o Motor de Regras e Notificações (alertas automáticos), os Dashboards de Telemetria (visualização em tempo real) e a Camada de Integração via APIs (conexão com Power BI e ERPs).
 
+Funcionamento
 
+1- Controla a ativação, suspensão e o consumo do tráfego de dados dos chips instalados nos sensores e gateways da fábrica.
+2- Centraliza o cadastro via identificadores (IMEI), provisionamento e o acompanhamento do estado de saúde física e operacional do hardware.
+3- Processa os dados brutos recebidos dos sensores e dispara ações automáticas (e-mails, SMS) ao identificar divergências nos limites operacionais.
+4- Converte a leitura bruta dos sensores em gráficos, medidores e indicadores visuais para acompanhamento da operação no dia a dia.
+5- Fornece pontes de comunicação seguras para enviar e receber dados entre a plataforma IoT e sistemas externos como Power BI, ERPs e CRMs.
 
+Pontos Fortes
+
+1- Monitoramento do consumo de dados em tempo real por dispositivo.
+2- Cadastro rápido e em massa via importação de planilhas.
+3- Disparo instantâneo de alertas por múltiplos canais.
+4- Interface responsiva para acesso por computador, tablet ou celular.
+5- Autenticação segura através de tokens e chaves de acesso.
+
+Pontos Fracos
+
+1- Dependência direta da cobertura das operadoras parceiras no local.
+2- Exige parametrização manual demorada para hardwares fora do padrão.
+3- Regras encadeadas e lógicas avançadas exigem conhecimento de código.
+4- Dificuldade para cruzar dados de múltiplos sensores na mesma tela.
+5- Interface nativa ruim para encontrar erros de integração.
