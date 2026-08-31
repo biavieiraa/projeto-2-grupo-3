@@ -114,7 +114,7 @@ Pontos Fortes
 2- Cadastro rápido e em massa via importação de planilhas.
 3- Disparo instantâneo de alertas por múltiplos canais.
 
-Empresa analisada - Claro
+Empresa analisada: Claro
 
 Visão Geral
 1.A Claro é uma das maiores empresas de telecomunicações da América Latina, atuando no Brasil como uma operadora multisserviços que oferece soluções conectadas para pessoas físicas, pequenas empresas e corporações. Provedora de serviços integrados de conectividade e entretenimento, oferecendo telefonia móvel (4G e 5G), internet banda larga de alta velocidade (fibra óptica e cabo), TV por assinatura (cabo e via streaming) e telefonia fixa.
@@ -153,3 +153,43 @@ Pontos Fracos
 3- Regras encadeadas e lógicas avançadas exigem conhecimento de código.
 4- Dificuldade para cruzar dados de múltiplos sensores na mesma tela.
 5- Interface nativa ruim para encontrar erros de integração.
+
+
+Empresa Analisada: Lyra M2M
+
+        A Lyra M2M é a divisão de conectividade e gestão de SIM Cards M2M e IoT do Grupo Lyra Brasil, fundada originalmente como provedora global de infraestrutura e gateways de pagamentos e transações financeiras.
+        O público-alvo da Lyra M2M é predominantemente B2B (Business-to-Business), composto por integradores de tecnologia, desenvolvedores de hardware, prestadores de serviços e grandes corporações que necessitam de conectividade crítica e monitorada para seus dispositivos.
+
+Produtos Analisados:
+
+       1- SIM Card Mono Operadora: Chip físico M2M associado a uma única operadora de telefonia móvel. Indicado para operações com alta demanda de tráfego de dados (como transmissão de vídeo) e em locais com cobertura geograficamente estável de uma determinada operadora.
+       2- SIM Card Multioperadora: Chip M2M inteligente capaz de alternar entre diferentes operadoras em um único SIM físico, garantindo redundância de sinal e expansão de cobertura em áreas rurais ou em deslocamento.
+       3- eSIM Lyra M2M (eUICC): Solução digitalizada de nova geração com provisionamento remoto (Over-The-Air - OTA). Permite armazenar e alternar remotamente o perfil de até 9 operadoras no mesmo chip sem necessidade de intervenção física ou substituição de hardware.
+       4- Plataforma de Gestão Lyra M2M: Portal SaaS em tempo real com dashboard para controle de pacotes de dados, monitoramento individual de chips, acionamento de travas de segurança (IMEI Lock), diagnóstico de rede e integração via APIs RESTful com sistemas de terceiros.
+
+Funcionamento:
+
+        A Lyra M2M atua como provedora de conectividade gerenciada multi-operadora e gestão de SIM Cards M2M e eSIM. A empresa fornece dados para terminais de     pagamento (POS), câmeras de segurança com reconhecimento facial, rastreamento de frotas e cidades inteligentes. Sua plataforma em nuvem oferece monitoramento  de consumo em tempo real, gestão de APNs privadas e alertas de uso indevido.
+        
+Pontos Fortes:
+
+        1- Forte presença em meios de pagamento e segurança pública/privada.
+        
+        2- Plataforma de gestão com dashboard em tempo real e monitoramento por aplicativo.
+        
+        3- Recurso nativo de detecção de troca não autorizada de chip (IMEI Lock).
+
+        4- Herança do setor financeiro que garante criptografia rigorosa e conformidade nativa para a proteção de dados sensíveis.
+
+        
+Pontos Fracos:
+
+        1- Foco prioritário em redes celulares (2G/3G/4G/5G/eSIM), com menor integração nativa com redes LPWAN não-celulares (como LoRaWAN privado).
+        
+        2- Customização de hardware e prototipagem do dispositivo de borda ficam a encargo do cliente final.
+
+        3- A solução depende da cobertura e do tempo de resposta das operadoras parceiras em falhas físicas de rede.
+
+        4- Modelo comercial B2B focado em escala, gerando custos de entrada pouco atraentes para pequenos protótipos ou startups em estágio inicial.
+
+        
