@@ -45,5 +45,12 @@ Na Sprint 1, puxamos a entrega do Documento de análise de competidores e detalh
 
 Todas as subtarefas foram movimentadas ao longo do fluxo até a coluna **Done** ao final do ciclo.
 
-### Quadro da Sprint
+### Quadro da Sprint 1
 ![Quadro do Jira em Execução](./board.jpeg)
+
+
+#### Quadro da Sprint 2
+![Quadro 2 do jira em execução](./board2.jpeg)
+
+### Screencast do sistema em uso
+https://youtu.be/4nRkAsJpJho?si=UtNhVNgx7p2iDae4
