@@ -57,3 +57,20 @@ https://youtu.be/4nRkAsJpJho?si=UtNhVNgx7p2iDae4
 
 ### Issues:
 ![Print de Issues](./issues.jpeg)
+
+## 🚀 Deployment da Infraestrutura em Produção
+
+A aplicação foi implantada e está em execução no ambiente de produção.
+
+* **Link do Projeto:** [https://projeto-bia.onrender.com/forum/](https://projeto-bia.onrender.com/forum/)
+* **Plataforma de Hospedagem:** Render
+* **Status:** Online
+
+---
+
+### Instruções de Acesso
+
+1. **Acesso ao Fórum:** 
+   * Navegue até a URL [https://projeto-bia.onrender.com/forum/](https://projeto-bia.onrender.com/forum/) para visualizar as discussões e tópicos ativos.
+2. **Autenticação de Usuário:**
+   * Clique em **Entrar** na navegação principal para realizar o login e obter acesso à criação/edição de conteúdos no fórum.
