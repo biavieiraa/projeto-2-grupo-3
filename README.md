@@ -58,7 +58,7 @@ https://youtu.be/4nRkAsJpJho?si=UtNhVNgx7p2iDae4
 ### Issues:
 ![Print de Issues](./issues.jpeg)
 
-## 🚀 Deployment da Infraestrutura em Produção
+## Deployment da Infraestrutura em Produção
 
 A aplicação foi implantada e está em execução no ambiente de produção.
 
